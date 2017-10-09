@@ -1,0 +1,83 @@
+<!doctype html>
+<!--
+Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" type="text/css" href="test.css">
+  
+
+</head>
+<body>
+<div class="navbar">
+
+  <div class="dropdown">
+    <button class="dropbtn">Opportunities 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">LIO/Manager View</a>    
+    </div>
+	</div>
+
+		<div class="dropdown">
+	<button class="dropbtn">Weekly key deals 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Manager View</a>
+      <a href="#">Node View</a>
+    
+    </div>
+	
+  </div> 
+  	<div class="dropdown">
+	<button class="dropbtn">Sales Action Quadrant
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">By Client</a>
+      <a href="#">By Brand</a>
+    
+    </div>
+	
+  </div> 
+  <div class="dropdown">
+	<button class="dropbtn">Daily Roadmap Action
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">By deal size</a>
+      <a href="#">By Brand</a>
+	  <a href="#">By opportunity</a>
+    
+    </div>
+	
+  </div> 
+</div>
+  <div class="rowTitle"><img class="lineImg" src="images/l1.png"><h1>Opportunities</h1></div>
+  <table class="lineTiles"><tbody><tr><td><a color="12" href="key-deals/0/0"><div class="card"><h3></h3><div class="coloredTitle" style="color: white; background-color: rgb(50, 92, 128);"><img class="lineImg" src="images/l1/v-4@3x.png"><h2>LIO / Manager View</h2></div><p class="margin16">Default: By Brand Group View</p></div></a></td><dom-repeat as="tile" index-as="tileIndex" style="display: none;"><template></template></dom-repeat></tr></tbody></table>
+  
+  <div class="rowTitle"><img class="lineImg" src="images/l1.png"><h1>Weekly Key Deals</h1></div>
+  
+
+
+<table class="lineTiles"><tbody><tr><td><a color="12" href="key-deals/1/0"><div class="card"><h3></h3><div class="coloredTitle" style="color: white; background-color: rgb(107, 80, 117);"><img class="lineImg" src="images/l2/v-2@3x.png"><h2>Manager View</h2></div><p class="margin16">Default: By RM Status View</p></div></a></td><td><a color="12" href="key-deals/1/1"><div class="card"><h3></h3><div class="coloredTitle" style="color: white; background-color: rgb(164, 129, 176);"><img class="lineImg" src="images/l2/v-2@3x.png"><h2>Node View</h2></div><p class="margin16">Default: By RM Status View</p></div></a></td><dom-repeat as="tile" index-as="tileIndex" style="display: none;"><template></template></dom-repeat></tr></tbody></table>
+  
+<div class="rowTitle"><img class="lineImg" src="images/l1.png"><h1>Sales Actions Quadrant</h1></div>
+
+<table class="lineTiles"><tbody><tr><td><a color="12" href="sales-action-quadrant/2/0"><div class="card"><h3></h3><div class="coloredTitle" style="color: white; background-color: rgb(69, 90, 64);"><img class="lineImg" src="images/l3/v-4@3x.png"><h2>By Client</h2></div><p class="margin16">Aggregation by Client (dummy)</p></div></a></td><td><a color="12" href="sales-action-quadrant/2/1"><div class="card"><h3></h3><div class="coloredTitle" style="color: white; background-color: rgb(92, 126, 84);"><img class="lineImg" src="images/l3/v-3@3x.png"><h2>By brand</h2></div><p class="margin16">Aggregation by brand (dummy)</p></div></a></td><dom-repeat as="tile" index-as="tileIndex" style="display: none;"><template></template></dom-repeat></tr></tbody></table>
+ <div class="rowTitle"><img class="lineImg" src="images/l1.png"><h1>Daily Roadmap Action</h1></div> 
+ 
+ <table class="lineTiles"><tbody><tr><td><a color="12" href="daily-roadmap-action/3/0"><div class="card"><h3></h3><div class="coloredTitle" style="color: white; background-color: rgb(86, 151, 141);"><img class="lineImg" src="images/l3/v-4@3x.png"><h2>By deal size</h2></div><p class="margin16">Aggregation by deal size (dummy)</p></div></a></td><td><a color="12" href="daily-roadmap-action/3/1"><div class="card"><h3></h3><div class="coloredTitle" style="color: white; background-color: rgb(108, 184, 173);"><img class="lineImg" src="images/l3/v-3@3x.png"><h2>By brand</h2></div><p class="margin16">Aggregation by brand (dummy)</p></div></a></td><td><a color="12" href="daily-roadmap-action/3/2"><div class="card"><h3></h3><div class="coloredTitle" style="color: white; background-color: rgb(106, 170, 160);"><img class="lineImg" src="images/l3/v-2@3x.png"><h2>By opportunity</h2></div><p class="margin16">Aggregation by opportunity</p></div></a></td><dom-repeat as="tile" index-as="tileIndex" style="display: none;"><template></template></dom-repeat></tr></tbody></table>
+  </my-app>
+</body>
+</html>
